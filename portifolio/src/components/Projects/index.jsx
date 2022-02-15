@@ -64,9 +64,7 @@ export const Projects = () => {
         }
     ]
 
-
     const options = {
-        items: window.innerWidth < 1600 ? 1 : 3,
         nav:false,
         pagination:false,
         rewind:true,
@@ -76,7 +74,18 @@ export const Projects = () => {
         stagePadding:0,
         autoplayHoverPause:true,
         autoplayTimeout:5000,
-        slideBy:2
+        slideBy:2,
+        responsive:{
+            0:{
+                items:1
+            },
+            900:{
+                items:2
+            },
+            1600:{
+                items:3
+            }
+        }
     }
 
     useEffect(() => {

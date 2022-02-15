@@ -52,7 +52,7 @@ export const Header = () => {
                     <button className='btn-getResume'>Currículo</button> 
                 </div>
                 <div className='profile-header'>
-                    <img src="../images/profilePic.jpg" alt=""></img>
+                    <img src="https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/profilePic.jpg?raw=true" alt=""></img>
                 </div>
             </div>
         </C.Container>
