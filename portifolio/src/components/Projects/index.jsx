@@ -1,9 +1,9 @@
 import * as C from './styles'
 import { Card } from '../Card'
-import OwlCarousel from 'react-owl-carousel2';
+import OwlCarousel from 'react-owl-carousel2/lib/OwlCarousel';
 import 'react-owl-carousel2/lib/styles.css';
 import 'react-owl-carousel2/src/owl.theme.default.css';
-import Aos from 'aos';;
+import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 
