@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: none;
+
+  
+  /* Track */
+ 
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}

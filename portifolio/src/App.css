@@ -1,0 +1,31 @@
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff2f2; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #122a46; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #122a46ef; 
+  }
+  
+  html {
+    scroll-behavior: smooth;
+
+    
+  }
+  
+@media only screen and (max-width: 1068px){
+  html{
+    overflow-x:hidden;
+  }
+}
