@@ -86,7 +86,7 @@ export const Container = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:100%;
-        max-width:100%;
+        width:100%;
         
     }
 `;
@@ -121,7 +121,7 @@ export const WorkHistory = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        max-width:30%;
+        width:50%;
 
     }
 `;
@@ -197,12 +197,12 @@ export const Skills = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        max-width:100%;
-        margin-left:45px;
-
+        width:100%;
+        margin-left:50px;
         .skills{
             margin-top:25px;
-            width:30%;  
+            width:35%;
+            
         }
     }
 `;
@@ -303,7 +303,7 @@ export const Projects = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        max-width:50%;
+        width:50%;
 
     }
 `;
@@ -365,7 +365,7 @@ export const Interests = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        max-width:30%;
-
+        width:40%;
+        
     }
 `;
