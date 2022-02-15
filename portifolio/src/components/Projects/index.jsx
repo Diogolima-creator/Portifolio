@@ -5,7 +5,7 @@ import 'react-owl-carousel2/lib/styles.css';
 import 'react-owl-carousel2/src/owl.theme.default.css';
 import Aos from 'aos';;
 import "aos/dist/aos.css";
-import { useState,useEffect } from 'react';
+import { useEffect } from 'react';
 
 export const Projects = () => {
 
