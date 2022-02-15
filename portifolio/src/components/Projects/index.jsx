@@ -1,6 +1,6 @@
 import * as C from './styles'
 import { Card } from '../Card'
-import OwlCarousel from 'react-owl-carousel2/lib/OwlCarousel';
+import OwlCarousel from 'react-owl-carousel2/';
 import 'react-owl-carousel2/lib/styles.css';
 import 'react-owl-carousel2/src/owl.theme.default.css';
 import Aos from 'aos';
@@ -103,12 +103,7 @@ export const Projects = () => {
             <div className='project-all'>
                 <div className='projects'>
                         <div className='project-carousel'>
-                            <OwlCarousel options={options}> 
-                                {
-                                    projects.map((project) => 
-                                    <Card url={project.url} name={project.name} urlGithub={project.gitHub} urlPageProject={project.pageProject}/>)
-                                }
-                            </OwlCarousel>
+                            
                         </div>
                     </div>
             </div>
