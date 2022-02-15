@@ -103,7 +103,7 @@ export const Projects = () => {
             <div className='project-all'>
                 <div className='projects'>
                         <div className='project-carousel'>
-                            <OwlCarousel> 
+                            <OwlCarousel options={options}> 
                                 {
                                     projects.map((project) => 
                                     <Card url={project.url} name={project.name} urlGithub={project.gitHub} urlPageProject={project.pageProject}/>)
