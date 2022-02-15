@@ -12,54 +12,54 @@ export const Projects = () => {
     const projects = [
         {
             name: 'RPG Game',
-            url: '../images/RPG.png',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/RPG.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/Jogo-De-Rpg',
             pageProject: 'https://diogolima-creator.github.io/Jogo-De-Rpg/'
         },
         {
             name: 'Loja Virtual',
-            url: '../images/LojaVirtual.png',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/LojaVirtual.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/LojaVirtual',
             pageProject: 'https://loja-virtual-bice.vercel.app/'
         },
         {
             name: 'Clone-Instagram',
-            url: '../images/Clone.png',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/Clone.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/Clone-Instagram',
             pageProject: 'https://clone-instagram-liart.vercel.app/'
         },
         {
             name: 'Podcast',
-            url: '../images/Podcast.png',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/Podcast.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/Podcast',
             pageProject: 'https://podcast-mu.vercel.app/'
         },
         {
             name: 'Clone-Netflix',
-            url: '../images/CloneNetflix.png',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/CloneNetflix.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/Clone-netflix',
             pageProject: 'https://clone-netflix-sigma.vercel.app/'
         },
         {
             name: 'Sistema Financeiro',
-            url: '../images/SistemaFinanceiro.png',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/SistemaFinanceiro.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/Sistema-Financeiro',
             pageProject: 'https://diogolima-creator.github.io/Sistema-Financeiro/'
         },
         {
             name: 'Formulario',
-            url: '../images/Formulario.png',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/Formulario.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/FormularioReact'
         },
         {
             name: 'Clone-Spotify',
-            url: '../images/CloneSpotify.png',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/CloneSpotify.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/Clone-spotify',
             pageProject: 'https://clone-spotify-nu.vercel.app/'
         },
         {
             name: 'Portifolio',
-            url: '../images/Portifolio.png',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/Portifolio.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator'
         }
     ]

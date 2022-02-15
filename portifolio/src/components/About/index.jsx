@@ -20,7 +20,7 @@ export const About = () => {
             </div>
             <div className='aboutme'>
                 <div className='aboutme-div'>
-                    <img src='../images/aboutPic.jpg' alt=''></img>
+                    <img src='https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/aboutPic.jpg?raw=true' alt=''></img>
                 </div>
                 <div className='aboutme-desc'>
                     <p>Aos 11 anos despertei curiosidade pela programação quando me aventurei 
