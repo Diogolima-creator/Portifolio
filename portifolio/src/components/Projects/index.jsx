@@ -75,6 +75,7 @@ export const Projects = () => {
         autoplayHoverPause:true,
         autoplayTimeout:5000,
         slideBy:2,
+        responsiveClass:true,
         responsive:{
             0:{
                 items:1
@@ -103,7 +104,8 @@ export const Projects = () => {
             <div className='project-all'>
                 <div className='projects'>
                         <div className='project-carousel'>
-                            <OwlCarousel options={options}> 
+                            <OwlCarousel {...options}
+                            > 
                                 {
                                     projects.map((project) => 
                                     <Card url={project.url} name={project.name} urlGithub={project.gitHub} urlPageProject={project.pageProject}/>)
