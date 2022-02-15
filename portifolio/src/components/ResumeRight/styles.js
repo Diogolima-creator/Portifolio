@@ -86,7 +86,7 @@ export const Container = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:100%;
-        width:100%;
+        min-width:100%;
         
     }
 `;
@@ -121,7 +121,7 @@ export const WorkHistory = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        width:30%;
+        min-width:30%;
 
     }
 `;
@@ -197,7 +197,7 @@ export const Skills = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        width:100%;
+        min-width:100%;
         margin-left:45px;
 
         .skills{
@@ -303,7 +303,7 @@ export const Projects = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        width:50%;
+        min-width:50%;
 
     }
 `;
@@ -365,7 +365,7 @@ export const Interests = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        width:30%;
+        min-width:30%;
 
     }
 `;

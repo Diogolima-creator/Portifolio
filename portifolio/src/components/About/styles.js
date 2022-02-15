@@ -137,7 +137,7 @@ export const Container = styled.div`
     }
 
     @media screen and (max-width: 768px){
-        width:100%;
+        min-width:100%;
         height:70%;
 
         .aboutme{
@@ -152,7 +152,7 @@ export const Container = styled.div`
                 }
             }
             .aboutme-desc{
-                margin-left:25px;
+                margin-left:5px;
             }
         }
     }
