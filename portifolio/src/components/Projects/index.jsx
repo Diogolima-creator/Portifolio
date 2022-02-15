@@ -103,7 +103,9 @@ export const Projects = () => {
             <div className='project-all'>
                 <div className='projects'>
                         <div className='project-carousel'>
-                            
+                            <OwlCarousel>
+                                
+                            </OwlCarousel>
                         </div>
                     </div>
             </div>
