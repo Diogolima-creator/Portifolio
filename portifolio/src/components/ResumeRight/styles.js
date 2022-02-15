@@ -121,7 +121,7 @@ export const WorkHistory = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        width:50%;
+        width:30%;
 
     }
 `;
@@ -199,9 +199,10 @@ export const Skills = styled.div`
         height:50%;
         width:100%;
         margin-left:45px;
+
         .skills{
             margin-top:25px;
-            width:40%;  
+            width:30%;  
         }
     }
 `;
