@@ -137,7 +137,7 @@ export const Container = styled.div`
     }
 
     @media screen and (max-width: 768px){
-        min-width:100%;
+        max-width:100%;
         height:70%;
 
         .aboutme{
