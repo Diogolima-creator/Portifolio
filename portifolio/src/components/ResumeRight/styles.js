@@ -198,10 +198,10 @@ export const Skills = styled.div`
         display:flex;
         height:50%;
         width:100%;
-        margin-left:50px;
+        margin-left:45px;
         .skills{
             margin-top:25px;
-            width:45%;
+            width:40%;
             
         }
     }

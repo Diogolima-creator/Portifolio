@@ -136,10 +136,10 @@ export const Container = styled.div`
         color:black;
     }
 
-    @media screen and (max-width: 768px) and (min-width:412px){
+    @media screen and (max-width: 768px){
         width:100%;
         height:100%;
-        margin-left:30px;
+        margin-left:0px;
 
         .aboutme{
             flex-direction:column;
