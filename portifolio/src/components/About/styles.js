@@ -159,36 +159,13 @@ export const Container = styled.div`
                 margin-left:0px;
             }
         }
-    }
 
-    @media screen and (max-width: 412px){
-        width:100%;
-        height:100%;
-        margin-left:0px;
-
-        .aboutme{
-            flex-direction:column;
-            width:100%;
-
-            .aboutme-div{
-                width:100%;
-                
-                img{
-                    width:100%;
-                }
-            }
-
-            .aboutme-desc{
-                margin:0px;
-                width:90%;
-                margin-left:0px;
-            }
-
-            .buttons{
-                display:flex;
-                
-            }
+        .buttons{
+            display:flex;
+            
         }
     }
+
+    
    
 `;

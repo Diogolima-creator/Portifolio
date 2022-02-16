@@ -35,4 +35,8 @@
     max-width: 412px;
     overflow-x:hidden;
   }
+
+  body{
+    position:fixed;
+  }
 }
