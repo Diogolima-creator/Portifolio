@@ -136,9 +136,9 @@ export const Container = styled.div`
         color:black;
     }
 
-    @media screen and (max-width: 768px){
-        width:90%;
-        height:70%;
+    @media screen and (max-width: 768px) and (min-width:412){
+        width:100%;
+        height:100%;
         margin-left:30px;
 
         .aboutme{
@@ -146,15 +146,49 @@ export const Container = styled.div`
             width:100%;
 
             .aboutme-div{
-                width:100%;
+                width:60%;
 
                 img{
                     width:100%;
                 }
             }
+
             .aboutme-desc{
+                margin:0px;
+                width:90%;
                 margin-left:0px;
             }
         }
     }
+
+    @media screen and (max-width: 412px){
+        width:100%;
+        height:100%;
+        margin-left:0px;
+
+        .aboutme{
+            flex-direction:column;
+            width:100%;
+
+            .aboutme-div{
+                width:100%;
+                
+                img{
+                    width:100%;
+                }
+            }
+
+            .aboutme-desc{
+                margin:0px;
+                width:90%;
+                margin-left:0px;
+            }
+
+            .buttons{
+                display:flex;
+                
+            }
+        }
+    }
+   
 `;

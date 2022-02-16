@@ -2,8 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-    @media screen and (max-width: 420px){
-        width:625px;
+
+    @media screen and (max-width: 412px){
+        width:100%;
+    }
+
+    @media screen and (max-width: 320px){
+        width:100%;
     }
 `;
 
@@ -41,5 +46,9 @@ export const Footer=styled.div`
         color:white;
         width:100%;
         height:100%;
+    }
+
+    @media screen and (max-width: 768px){
+        display:none;
     }
 `;

@@ -171,7 +171,7 @@ export const Container = styled.div`
 
     }
 
-    @media screen and (max-width: 968px){
+    @media screen and (max-width: 768px){
         width:100%;
 
         h1{
@@ -217,6 +217,13 @@ export const Container = styled.div`
         }
     }
 
-   
+    @media screen and (max-width: 412px){
+        width:100%;
+
+        h1{
+            font-size:42px;
+            margin-left:140px;
+        }
+    }
 `;
 

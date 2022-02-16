@@ -54,9 +54,10 @@ export const About = () => {
                         <span>Styled-Components</span>
                     </div>   
                         
-                    
-                    <a href='#ContactMe'className='btn-contact'>Contato</a>
-                    <button className='btn-getResume'>Currículo</button>
+                    <div className='buttons'>
+                        <a href='#ContactMe'className='btn-contact'>Contato</a>
+                        <button className='btn-getResume'>Currículo</button>
+                    </div>    
                 </div>
             </div>
         </C.Container>

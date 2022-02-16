@@ -161,9 +161,9 @@ export const Container = styled.div`
         @media screen and (max-width: 768px) {
             width:100%;
             height:100%;
-
+            margin-bottom:10px;
             .contact{
-                width:90%;
+                width:100%;
                 height:100%;
 
                 

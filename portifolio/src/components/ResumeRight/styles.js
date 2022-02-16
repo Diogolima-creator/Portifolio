@@ -86,8 +86,8 @@ export const Container = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:100%;
-        width:100%;
-        
+        width:80%;
+        margin-left:60px;
     }
 `;
 
@@ -121,7 +121,7 @@ export const WorkHistory = styled.div`
     @media screen and (max-width: 768px){
         display:flex;
         height:50%;
-        width:50%;
+        width:40%;
 
     }
 `;
@@ -201,10 +201,12 @@ export const Skills = styled.div`
         margin-left:50px;
         .skills{
             margin-top:25px;
-            width:35%;
+            width:45%;
             
         }
     }
+
+    
 `;
 
 export const Projects = styled.div`
@@ -304,8 +306,9 @@ export const Projects = styled.div`
         display:flex;
         height:50%;
         width:50%;
-
     }
+
+    
 `;
 
 export const Interests = styled.div`
@@ -362,10 +365,21 @@ export const Interests = styled.div`
         margin-left:40px;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) and (min-width:412px) {
         display:flex;
         height:50%;
         width:40%;
         
+    }
+
+    @media screen and (max-width: 412px) {
+        display:flex;
+        height:100%;
+        margin:0px;
+        width:40%;
+        
+        .interests-block-text{
+            width:80%;
+        }
     }
 `;
