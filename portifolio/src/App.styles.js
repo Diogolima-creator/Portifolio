@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
+    @media screen and (max-width: 320px){
+        width:800px;
+    }
 `;
 
 export const Footer=styled.div`

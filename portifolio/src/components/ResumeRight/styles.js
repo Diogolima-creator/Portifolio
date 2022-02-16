@@ -362,7 +362,7 @@ export const Interests = styled.div`
         margin-left:40px;
     }
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
         display:flex;
         height:50%;
         width:40%;

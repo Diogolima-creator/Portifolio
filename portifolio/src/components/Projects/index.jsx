@@ -80,7 +80,7 @@ export const Projects = () => {
             0:{
                 items:1
             },
-            900:{
+            1200:{
                 items:2
             },
             1600:{

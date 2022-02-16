@@ -182,19 +182,33 @@ export const Container = styled.div`
             display:none;
         }
 
+        .div-header{
+
+            .p-wraper{
+                font-size:26px;
+            }
+
+            p{
+                font-size:14px;
+            }
+            
+        }
+
         .whoIam-header{
             display:flex;
             flex-direction: column-reverse;
             justify-content:center;
             align-items:center;
+            
 
-            .profile-header{
+            .profile-header{    
                 display:flex;
                 align-items:center;
                 justify-content:center;
                 margin:0px;
                 margin-bottom:10px;
-
+                
+            
                 img{
                     width: 250px;
                     height: 250px;
@@ -202,5 +216,7 @@ export const Container = styled.div`
             }
         }
     }
+
+   
 `;
 

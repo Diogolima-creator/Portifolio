@@ -137,22 +137,23 @@ export const Container = styled.div`
     }
 
     @media screen and (max-width: 768px){
-        width:100%;
+        width:90%;
         height:70%;
+        margin-left:30px;
 
         .aboutme{
             flex-direction:column;
             width:100%;
 
             .aboutme-div{
-                width:90%;
+                width:100%;
 
                 img{
                     width:100%;
                 }
             }
             .aboutme-desc{
-                margin-left:65px;
+                margin-left:0px;
             }
         }
     }

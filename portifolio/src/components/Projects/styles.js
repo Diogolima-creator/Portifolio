@@ -55,16 +55,16 @@ export const Container = styled.div`
         
     }
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
         width:100%;
         height:100%;
 
         .projects{
-            width:100%;
+            width:80%;
         }
 
         .projects-carousel{
-            width:100%;
+            width:80%;
         }
     }
 `;
