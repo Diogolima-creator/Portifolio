@@ -52,10 +52,10 @@ export const Projects = () => {
             gitHub: 'https://github.com/Diogolima-creator/FormularioReact'
         },
         {
-            name: 'Clone-Spotify',
+            name: 'Food-Menu',
             url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/CloneSpotify.png?raw=true',
-            gitHub: 'https://github.com/Diogolima-creator/Clone-spotify',
-            pageProject: 'https://clone-spotify-nu.vercel.app/'
+            gitHub: 'https://github.com/Diogolima-creator/FoodMenu',
+            pageProject: 'https://food-menu-delta.vercel.app/'
         },
         {
             name: 'Portifolio',

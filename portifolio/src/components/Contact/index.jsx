@@ -41,7 +41,7 @@ export const Contact = () => {
                             <label for="email">Email</label>
                             <input type='email' name='email' required/>
                             <label for="message">Mensagem</label>
-                            <input type="hidden" name="_next" value="http://localhost:3000/"/>
+                            <input type="hidden" name="_next" value="https://portifolio-kappa-nine.vercel.app/"/>
                             <textarea type="text" name="message" required></textarea>
                             <button type='submit'>Enviar<FontAwesomeIcon className='icon' icon={faPaperPlane} /></button>
                         </form>
