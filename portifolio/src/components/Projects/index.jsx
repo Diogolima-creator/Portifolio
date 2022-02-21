@@ -53,7 +53,7 @@ export const Projects = () => {
         },
         {
             name: 'Food-Menu',
-            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/CloneSpotify.png?raw=true',
+            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/menuFood.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/FoodMenu',
             pageProject: 'https://food-menu-delta.vercel.app/'
         },
