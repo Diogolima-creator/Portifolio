@@ -23,7 +23,7 @@ export const Contact = () => {
                 <div className='contact-left'>
                     <p className='contact-email'>Entrar em contato 📧</p>
                     <div className='contact-social'>
-                        <a href='https://twitter.com/ target='_blank'><FontAwesomeIcon className='icon' icon={faTwitter} /></a>
+                        <a href='https://twitter.com/' target='_blank'><FontAwesomeIcon className='icon' icon={faTwitter} /></a>
                         <a href='https://mail.google.com/mail/u/0/?fs=1&to=dbznetudo@gmail.com&tf=cm'target='_blank'><FontAwesomeIcon className='icon' icon={faGoogle} /></a>
                         <a href='https://www.instagram.com/diogo_lima1408/' target='_blank'><FontAwesomeIcon className='icon' icon={faInstagram} /></a>
                         <a href='https://github.com/Diogolima-creator' target='_blank'><FontAwesomeIcon className='icon' icon={faGithub} /></a>
