@@ -2,27 +2,32 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display:flex;
-    border:3px solid white;
-    width: 380px;
-    height:100%;
+    border:3px solid transparent;
+    width: 580px;
+    height:90%;
     flex-direction:column;
     align-items:Center;
     justify-content:center;
     margin-top:90px;
     margin-bottom:50px;
-    padding:5px;
+    padding: 10px 15px;
     border-radius: 10px 10px 10px 0px;
-    background-color:White;
-    transition:1s;
+    background: transparent;
+    background-size: cover;
+    transition:.5s;
 
     &:hover{
-        transform:scale(1.03);
+        transform:scale(1.01);
+        img{   
+            transform:scale(1.02);
+        }
     }
 
     img{
-        width:380px;
-        height:300px;
-        
+        width:95%;
+        height:450px;
+        transition:1.5s;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     }
 
     
@@ -32,7 +37,7 @@ export const Container = styled.div`
         margin-top:8px;
         width:100%;
         text-align:center;
-        color:#122a46;
+        color:white;
         font-family: 'Poppins', sans-serif;
         margin-bottom:10px;
     }

@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
-
+    
+    background: url(../../images/header3.jpg) no-repeat;
+    background-size: 100% 110%;
+    
     @media screen and (max-width: 412px){
         width:100%;
     }
@@ -10,12 +12,13 @@ export const Container = styled.div`
     @media screen and (max-width: 320px){
         width:100%;
     }
+    
 `;
 
 export const Footer=styled.div`
     position:fixed;
-    top:920px;
-    left:1850px;
+    top:96%;
+    left:98%;
     display:flex;
     float:right;
     width:25px;

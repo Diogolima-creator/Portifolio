@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-        background-color: white;
+        
         width:100%;
         height:774px;
         font-family: 'Poppins', sans-serif;
@@ -10,11 +10,11 @@ export const Container = styled.div`
         align-items:center;
         padding:0px;
         margin:0px;
-        margin-top:40px;
+        margin-top:0px;
 
         .header-contact{
             text-align:center;
-            color:#122a46;
+            color:white;
             margin-top:50px;    
 
             hr{
@@ -36,11 +36,11 @@ export const Container = styled.div`
 
         .contact{
             display:flex;
-            background-image: linear-gradient(#122a46, #1f2235);
             width:1100px;
             height: 500px;
             border-radius:15px;
-            box-shadow: 0 0 20px -2px #122a46;
+            box-shadow: 0 0 10px -2px white;
+            
         }
 
         .contact-left, .contact-right{
@@ -76,7 +76,7 @@ export const Container = styled.div`
         }
 
         .contact-right-form{
-            background-color: #fff;
+            background-color: transparent;
             border-radius:15px;
             opacity:.9;
             width:98%;
@@ -110,7 +110,7 @@ export const Container = styled.div`
 
         form label{
             margin-bottom: 5px;
-            color: #111;
+            color: white;
             letter-spacing: .2rem;
             font-family: 'Roboto', sans-serif;
         }
@@ -131,7 +131,7 @@ export const Container = styled.div`
             border: 2px solid #ff5823;
             font-size: 12px;
             border-radius: 19px;
-            background-color: #122a46;
+            background-color: black;
             font-size: 18px;
             width: 160px;
             align-items: center;
@@ -142,7 +142,7 @@ export const Container = styled.div`
         }
 
         button:hover{
-            border: 2px solid #122a46;
+            border: 2px solid white;
             
         }
 

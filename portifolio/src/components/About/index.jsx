@@ -20,22 +20,21 @@ export const About = () => {
             </div>
             <div className='aboutme'>
                 <div className='aboutme-div'>
-                    <img src='https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/aboutPic.jpg?raw=true' alt=''></img>
+                    <img src='../../images/about1.png' alt=''></img>
                 </div>
                 <div className='aboutme-desc'>
-                    <p>Aos 11 anos despertei curiosidade pela programação quando me aventurei 
-                        na criação de um servidor de Minecraft
-                        ,apesar de não me jogar de cabeça nos estudos, ali surgia uma semente
-                        que se afloraria. Aos meus 17 anos decidi começar a estudar C, então me apaixonei 
-                        pela beleza que é construir algoritmos como ferramenta para facilitar a vida de outras pessoas.</p>
+                    <p>Quando tinha 11 anos, fiquei curioso sobre programação e criei um servidor de Minecraft. 
+                        Embora não tenha me dedicado totalmente aos estudos naquela época, essa experiência me despertou o 
+                        interesse pela programação. Aos 17 anos, comecei a estudar C e me apaixonei por construir algoritmos que 
+                        ajudam as pessoas em suas vidas.</p>
                     <p className='title-about'>Tecnologias que eu domino atualmente:</p>
                     <div className='highlight'>
                         <div className='circle-yellow'></div>
-                        <span>Full Stack Web</span>
+                        <span>TypeScript</span>
                     </div>
                     <div className='highlight'>
                         <div className='circle-yellow'></div>
-                        <span>REACT.JS e NODE.JS</span>
+                        <span>ReactJS e NodeJS</span>
                     </div>
                     <div className='highlight'>
                         <div className='circle-yellow'></div>

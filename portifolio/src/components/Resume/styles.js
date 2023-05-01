@@ -6,10 +6,13 @@ export const Container = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
+    background: transparent;
+    background-size: 100% 100%;
+    
 
     .header-resume{
         text-align:center;
-        color:#122a46;
+        color:white;
         margin-top:50px;    
 
         hr{
@@ -32,11 +35,12 @@ export const Container = styled.div`
         display:flex;
         width:1000px;
         height:350px;
-        
+        background-color:transparent;
     }
 
     .resume-left{
         display:flex;
+        background-color:transparent;
 
         .resume-menu{
             width:320px;
@@ -120,7 +124,7 @@ export const Container = styled.div`
 
 
     .resume-right{
-        width:680px;
+        width:900px;
         border:1px solid black;
     }
         

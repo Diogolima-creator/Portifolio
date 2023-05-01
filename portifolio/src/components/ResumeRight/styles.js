@@ -4,9 +4,9 @@ export const Container = styled.div`
     display:flex;
     align-items:center;
     justify-content:center;
-    width:680px;
+    width:100%;
     animation: modal .5s;  
-    
+
     @keyframes modal {
         from {
             opacity: 0;
@@ -33,7 +33,7 @@ export const Container = styled.div`
         p{
             margin-left:60px;
             font-weight:bold;
-            
+            color:white;
         }
     }
 
@@ -42,7 +42,7 @@ export const Container = styled.div`
         flex-direction:row;
         align-items:center;
         margin-top:20px;
-        
+        color:white;
         p{
             font-size:16px;
             margin-left:5px;
@@ -103,6 +103,7 @@ export const WorkHistory = styled.div`
             margin:0px;
             margin-left:40px;
             margin-top:8px;
+            color:white;
         }
     }
 
@@ -191,7 +192,10 @@ export const Skills = styled.div`
         display:flex;
         align-items:center;
         }
-   
+        
+        p{
+            color:white;
+        }
     }
 
     @media screen and (max-width: 768px){
@@ -255,6 +259,10 @@ export const Projects = styled.div`
         margin:0px;
         padding:0px;
         margin-left:40px;
+
+        p{
+            color:white;
+        }
     }
 
     .circle-yellow{
@@ -321,7 +329,7 @@ export const Interests = styled.div`
         margin:0px;
         padding:0px;
         margin-top:15px;
-
+        
     }
 
     .interests-flex-space{
@@ -363,6 +371,12 @@ export const Interests = styled.div`
         border-radius:45px;
         font-size:14px;
         margin-left:40px;
+
+        p{  
+            width:90%;
+            height:100%;
+            color:White;
+        }
     }
 
     @media screen and (max-width: 768px) and (min-width:412px) {

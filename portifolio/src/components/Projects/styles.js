@@ -9,12 +9,13 @@ export const Container = styled.div`
     flex-direction:column;
     margin:0px;
     padding:0px;
-    
+    background: transparent;
+
     .header-projects{
         text-align:center;
-        color:#122a46;
+        color:white;
         margin-top:50px;
-         
+        
         hr{
             width:100%;
             margin-bottom:40px;
@@ -36,23 +37,21 @@ export const Container = styled.div`
         align-items:center;
         justify-content:center;
         width:100%;
-        background-color:#122a46;
         height:100%;
         padding-bottom:50px;
     }
 
     .projects{
-        width:80%;
+        width:100%;
         height:100%;
-        background-color:#122a46;
+        background-color:transparent;
         display:Flex;
         align-items:center;
         justify-content:center;
     }
 
     .project-carousel{
-        width:90%;
-        
+        width:100%;
     }
 
     @media screen and (max-width: 768px) {

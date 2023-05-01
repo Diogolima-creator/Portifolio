@@ -17,6 +17,12 @@ export const Projects = () => {
             pageProject: 'https://diogolima-creator.github.io/Jogo-De-Rpg/'
         },
         {
+            name: 'Finanças',
+            url: 'https://user-images.githubusercontent.com/62246037/235319285-0e0d503f-9241-4256-95e0-674012e65614.jpeg',
+            github: 'https://github.com/Diogolima-creator',
+            pageProject: 'https://peaceful-begonia-e4e088.netlify.app/'
+        },
+        {
             name: 'Loja Virtual',
             url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/LojaVirtual.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/LojaVirtual',
@@ -33,23 +39,6 @@ export const Projects = () => {
             url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/Podcast.png?raw=true',
             gitHub: 'https://github.com/Diogolima-creator/Podcast',
             pageProject: 'https://podcast-mu.vercel.app/'
-        },
-        {
-            name: 'Clone-Netflix',
-            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/CloneNetflix.png?raw=true',
-            gitHub: 'https://github.com/Diogolima-creator/Clone-netflix',
-            pageProject: 'https://clone-netflix-sigma.vercel.app/'
-        },
-        {
-            name: 'Sistema Financeiro',
-            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/SistemaFinanceiro.png?raw=true',
-            gitHub: 'https://github.com/Diogolima-creator/Sistema-Financeiro',
-            pageProject: 'https://diogolima-creator.github.io/Sistema-Financeiro/'
-        },
-        {
-            name: 'Formulario',
-            url: 'https://github.com/Diogolima-creator/Portifolio/blob/main/portifolio/images/Formulario.png?raw=true',
-            gitHub: 'https://github.com/Diogolima-creator/FormularioReact'
         },
         {
             name: 'Food-Menu',

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background-color: white;
+    background: transparent;
     width:100%;
     height:874px;
     font-family: 'Poppins', sans-serif;
@@ -11,17 +11,18 @@ export const Container = styled.div`
     padding:0px;
     margin:0px;
     
+
     img{
         margin:0px;
         padding:0px;
-        height:100%;
-        width:500px;
+        height:512px;
+        width:512px; 
     }
 
     .header-about{
         text-align:center;
-        color:#122a46;
-        margin-top:50px;    
+        color:white;
+        margin-top:0px;    
 
         hr{
             width:18%;
@@ -44,19 +45,22 @@ export const Container = styled.div`
         display:flex;
         justify-content:center;
         align-items:center;
-        box-shadow: 0 0 20px -2px #1f2235;
         width:1000px;
+        background: transparent;
         
+
         .aboutme-desc{
             width: 500px;
             height: 100%;
+            color:white;
+            font-weight:bold;
 
             p{
                 margin:30px;
-                margin-top:50px;
+                margin-top:20px;
                 font-family: 'Roboto', sans-serif;
                 padding: 0px 10px;
-                font-size:14px;
+                font-size:16px;
                 letter-spacing: .1em;
             }
 
@@ -65,16 +69,20 @@ export const Container = styled.div`
                 font-weight:bold;
                 margin-top:150px;
                 font-size:16px;
+                
             }
 
             .highlight{
                 display:Flex;
                 align-items:center;
-                font-weight:normal;
                 font-family: 'Roboto', sans-serif;
-                margin-top:7px;
-                font-size:14px;
+                margin-top:5px;
+                font-size:16px;
+                font-weight:bold;
+
+                
             }
+            
             .circle-yellow{
                 width:12px;
                 height:12px;
@@ -91,7 +99,10 @@ export const Container = styled.div`
     .aboutme-div{
         padding:0px;
         margin:0px;
-        height:666px;
+        height:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
     }
 
     button{
@@ -108,7 +119,7 @@ export const Container = styled.div`
     }
 
     .btn-contact{
-        background:transparent;
+        background:white;
         border:2px solid black;
         color:black;
         margin-left:40px;
@@ -123,17 +134,18 @@ export const Container = styled.div`
     }
 
     .btn-contact:hover{
-        background-color:#122a46;
-        color:white;
-    }
-
-    .btn-getResume{
         background-color:#DAA520;
         color:white;
     }
 
-    .btn-getResume:hover{
+    .btn-getResume{
+        background-color:white;
         color:black;
+    }
+
+    .btn-getResume:hover{
+        background-color:#DAA520;
+        color:white;
     }
 
     @media screen and (max-width: 768px){

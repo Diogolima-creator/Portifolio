@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background-color: #122a46;
+    
     width:100%;
-    height:670px;
+    height:100vh;
     display:flex;
     align-items:center;
     justify-content:top;
@@ -43,7 +43,7 @@ export const Container = styled.div`
             border-bottom:2px solid #DAA520;
             cursor:pointer;
             font-size:16px;    
-            color:#DAA520;       
+            color:#DAA520;     
         }
 
         a{
@@ -55,7 +55,7 @@ export const Container = styled.div`
         margin-top:30px;
         display:flex;
         align-items:center;
-             
+        height:65%;     
         
         .div-header{
             text-align:center;
@@ -82,7 +82,7 @@ export const Container = styled.div`
 
         h1{
             margin:0px;
-            font-size:22px;
+            font-size:32px;
             span{
                 color: #DAA520;
             }
@@ -93,13 +93,13 @@ export const Container = styled.div`
             padding:0px;
             margin: 0px auto;
             margin-top:10px;
-            font-size:32px;
+            font-size:38px;
             font-weight: normal;
             font-family: 'Roboto', sans-serif;
         }
 
         p{
-            font-size:18px;
+            font-size:20px;
             font-weight: normal;
             font-family: 'Roboto', sans-serif;
         }
@@ -153,19 +153,33 @@ export const Container = styled.div`
 
         .profile-header{
             margin-left:160px;
-            border:1px solid white;
+            border:2px solid #122a46;
             border-radius:200px;
-            padding:5px;
+            padding:10px;
             
+
             img{
                 border-radius:200px;
                 width:350px;
                 height:350px;
+                cursor:pointer;
+                transition: 1.5s;
             }
 
             img:hover{
-                transform: scale(1.07);
-                transition: 2s;
+                transform: scale(1.03);
+                animation: change 1s;
+                content: url(../../images/about.png);
+            }
+    
+            @keyframes change{
+                0%{
+                    cursor:pointer;
+                    opacity:0;
+                }
+                100%{
+                    opacity:1s;
+                }
             }
         }
 

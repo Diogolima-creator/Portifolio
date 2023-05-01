@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 
 export const Resume = () => {
 
-    const[select,setSelect] = useState('0');
+    const[select,setSelect] = useState('3');
 
     const toggleSelect = (number) => {
 
@@ -44,7 +44,7 @@ export const Resume = () => {
                             <div className='resume-bullet'>
                                 <FontAwesomeIcon className='icon' icon={faUserGraduate} />
                             </div>
-                            <p id='0' className='selected' onClick={() => toggleSelect('0')}>Academia</p>
+                            <p id='0' className='' onClick={() => toggleSelect('0')}>Academia</p>
                         </div>
                         <div className='resume-menu-list'>
                             <div className='resume-bullet'>
@@ -64,7 +64,7 @@ export const Resume = () => {
                             <div className='resume-bullet'>
                                 <FontAwesomeIcon className='icon' icon={faChartColumn} />
                             </div>
-                            <p id='3' className='' onClick={() => toggleSelect('3')}>Projetos</p>
+                            <p id='3' className='selected' onClick={() => toggleSelect('3')}>Projetos</p>
                             
                         </div>
                         <div className='resume-menu-list'>

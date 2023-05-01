@@ -51,7 +51,7 @@ export const Resumeright = ( {index} ) => {
                     <div>
                         <div className='skill-block'>
                             <div className="circle-yellow"></div>
-                            <p>JavaScript</p>
+                            <p>TypeScript</p>
                         </div>
                         <div className='bars'>
                             <div className='bar-blue'></div><div className='bar-yellow'></div>
@@ -176,15 +176,16 @@ export const Resumeright = ( {index} ) => {
                     <div className='project-flex-space'>
                         <div className='project-flex'>
                             <div className='projects-block'>
-                                <div className="circle-yellow"></div><p>Clones WebSite</p>
+                                <div className="circle-yellow"></div><p>Finanças</p>
                             </div>
                             <div className='projects-block-text'>
-                                <p className='projects-tech'>Tecnologias Usadas:React JS,Styled-Components,Firebase/Storage/DataBase</p>
-                                <p>Clone de Sites famosos com intuito de aprendizado baseado em videos do youtube.</p>
+                                <p className='projects-tech'>Tecnologias Usadas:TypeScript,Styled-Components,Firebase/Storage, MongoDB</p>
+                                <p>Projeto feito com o intuito de ser um app para organização financeira seja familiar ou empresarial.
+                                </p>
                             </div>
                         </div>
                         <div className='project-flex-block'>
-                            <div className='project-flex-block-text'><a href='https://clone-netflix-sigma.vercel.app/' target="_blank">Ir para Projeto</a></div>
+                            <div className='project-flex-block-text'><a href='https://peaceful-begonia-e4e088.netlify.app' target="_blank">Ir para Projeto</a></div>
                         </div>
                     </div>
                 </div>
