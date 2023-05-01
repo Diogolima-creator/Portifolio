@@ -20,7 +20,7 @@ export const About = () => {
             </div>
             <div className='aboutme'>
                 <div className='aboutme-div'>
-                    <img src='../../images/about1.png' alt=''></img>
+                    <img src='https://user-images.githubusercontent.com/62246037/235383578-cf6688bf-9c00-47f6-94e7-53dd15302ac2.png' alt=''></img>
                 </div>
                 <div className='aboutme-desc'>
                     <p>Quando tinha 11 anos, fiquei curioso sobre programação e criei um servidor de Minecraft. 

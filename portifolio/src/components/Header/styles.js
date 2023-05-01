@@ -169,7 +169,7 @@ export const Container = styled.div`
             img:hover{
                 transform: scale(1.03);
                 animation: change 1s;
-                content: url(../../images/about.png);
+                content: url(https://user-images.githubusercontent.com/62246037/235383681-a29b5966-7253-4e3f-928b-8c90f673ff6a.png);
             }
     
             @keyframes change{

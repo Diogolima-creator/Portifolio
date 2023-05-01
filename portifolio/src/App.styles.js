@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     
-    background: url(../../images/header3.jpg) no-repeat;
+    background: url(https://user-images.githubusercontent.com/62246037/235383760-b7923f1e-09f2-4c40-9877-88050b715821.jpg) no-repeat;
     background-size: 100% 110%;
     
     @media screen and (max-width: 412px){

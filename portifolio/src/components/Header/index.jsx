@@ -51,7 +51,7 @@ export const Header = () => {
                     <button className='btn-getResume'>Currículo</button> 
                 </div>
                 <div className='profile-header'>
-                    <img src="../../images/profilePic2.png" alt=""></img>
+                    <img src="https://user-images.githubusercontent.com/62246037/235383695-7eadb9a1-74f8-4df4-b52e-53e1267d359c.png" alt=""></img>
                 </div>
             </div>
         </C.Container>
