@@ -70,7 +70,7 @@ export const Container = styled.div`
                     margin-top:40px;
                     padding-top:20px;
                     padding-bottom:20px;
-                    background-color:#122a46;
+                    background-color:#DAA520;
                     
                 }
 
@@ -78,7 +78,7 @@ export const Container = styled.div`
                     margin-top:53px;
                     margin-left:20px;
                     font-family: 'Poppins', sans-serif;
-                    color:#122a46;
+                    color:#DAA520;
                     font-size:14px;
                     cursor:pointer;
                     
@@ -87,8 +87,8 @@ export const Container = styled.div`
                 .selected{
                     margin-left:0px;
                     display: Flex;
-                    background-color:#122a46;
-                    color:white;
+                    background-color:#DAA520;
+                    color:#122a46;
                     border-radius: 0px 90px 90px 0px;
                     height:40px;
                     width:225px;
@@ -117,7 +117,7 @@ export const Container = styled.div`
         
             .icon{
                 height:18px;
-                color:white;
+                color:#122a46;
                 cursor:pointer;
             }
         }

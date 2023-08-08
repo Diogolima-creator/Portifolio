@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     
-    background: url(https://user-images.githubusercontent.com/62246037/235383760-b7923f1e-09f2-4c40-9877-88050b715821.jpg) no-repeat;
-    background-size: 100% 110%;
+    background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
     
     @media screen and (max-width: 412px){
         width:100%;
