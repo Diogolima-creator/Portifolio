@@ -48,7 +48,7 @@ export const Header = () => {
                     <p className='p-wraper' id='p-wraper'><span>Desenvolvedor Junior</span></p>
                     <p>Desenvolvedor Junior usando as tecnologias React.js e Node.js</p>
                     <a href='#ContactMe' className='btn-contact'>Contato</a>
-                    <button className='btn-getResume'>Currículo</button> 
+                    <a className='btn-getResume' href='https://github.com/Diogolima-creator/portfilioMine/files/12287061/Curriculo.pdf' download>Currículo</a> 
                 </div>
                 <div className='profile-header'>
                     <img src="https://user-images.githubusercontent.com/62246037/235383695-7eadb9a1-74f8-4df4-b52e-53e1267d359c.png" alt=""></img>

@@ -105,10 +105,8 @@ export const Container = styled.div`
         }
 
 
-        button{
-            width:158px;
-            height:48px;
-            padding:14px;
+        .btn-getResume{
+            padding:14px 42px;
             border-radius:45px;
             cursor:pointer;
             border:none;
@@ -116,6 +114,7 @@ export const Container = styled.div`
             margin: 0 20px;
             color:black;
             font-size:14px;
+            text-decoration:none;
         }
 
         
